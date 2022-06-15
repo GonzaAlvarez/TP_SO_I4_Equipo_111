@@ -1,0 +1,33 @@
+Integrantes:
+ALFA: Rodrigo Fernandez Barbero
+BETA: Franco Buonfrate
+GAMMA: Gonzalo Alvarez
+
+Preguntas:
+A-¿Qué color de fondo tiene su página en el TESTING?
+Azul
+
+B-¿Qué color de fondo tiene su página en el DESARROLLO?
+Amarillo
+
+C-¿Qué color de fondo tiene su página en el MASTER?
+Blanco
+
+D-¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+El de BETA
+
+E-¿Algún integrante tuvo problemas al hacer el push?
+
+
+F-¿Qué problemas surgieron?
+
+
+G-¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+
+adoptada?
+
+H-¿Qué sucede si cada uno utiliza el push -f?
+
+
+I-¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO?
