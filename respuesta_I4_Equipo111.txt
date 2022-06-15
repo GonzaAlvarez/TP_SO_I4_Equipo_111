@@ -16,18 +16,32 @@ Blanco
 D-¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
 El de BETA
 
-E-¿Algún integrante tuvo problemas al hacer el push?
+E- ¿Algún integrante tuvo problemas al hacer el push?
+Si
 
+F- ¿Qué problemas surgieron?
+Surgio el siguiente error:
+error: failed to push some refs to 'https://github.com/GonzaAlvarez/TP_SO_I4_Equipo_111'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+Esto se debe a que no estaba actualizado el repositorio local
 
-F-¿Qué problemas surgieron?
-
-
-G-¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
-
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
 adoptada?
+Hay 2 soluciones:
+1_Hacer un push -f y su consecuencia es que pisa el valor del <p> del anterior commit
+2_Hacer un git pull para poder hacer un push sin pisar el valor del <p> del anterior commit
 
-H-¿Qué sucede si cada uno utiliza el push -f?
+H- ¿Qué sucede si cada uno utiliza el push -f?
+Pisa el valor del <p> del anterior commit
 
-
-I-¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
 en DESARROLLO?
+Pasos:
+1.ALFA agrega <p> en index.html y hace el push
+2.BETA hace git pull, agrega <p> en index.html y hace el push
+3.GAMMA hace git pull, agrega <p> en index.html y hace el push
+4.hacemos git merge TESTING en DESARROLLO para que quede el index.html con todos los <p> de los puntos 18, 19 y 20
